@@ -1,0 +1,4 @@
+job3:
+  stage: test
+  script:
+    - echo "test"

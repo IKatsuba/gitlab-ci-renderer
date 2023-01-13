@@ -1,0 +1,7 @@
+{
+  "name": "@gitlab-ci-renderer/core",
+  "version": "0.0.0-stub",
+  "dependencies": {
+    "yaml": "^2.2.1"
+  }
+}

@@ -1,0 +1,10 @@
+job1:
+  stage: test
+  script:
+    - echo "test"
+
+include:
+  - project: 'mygroup/myproject'
+    file: 'packages/core/src/lib/builders/__test__/test2.yml'
+    ref: 'master'
+  - local: '__test__/test3.yml'

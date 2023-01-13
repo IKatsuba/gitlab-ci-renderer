@@ -1,0 +1,9 @@
+include:
+  - local: __test__/test1.yml
+  - ref: master
+    file: packages/core/src/lib/builders/__test__/test2.yml
+
+job:
+  stage: test
+  script:
+    - echo "test"
